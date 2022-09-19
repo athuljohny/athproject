@@ -7,7 +7,9 @@ void main() {
   int phone  = 77889966;
   String email = 'athuljohny123@gmail.com';
   
-  
-  stdout.write("my mark percentage is $mark");
-  stdout.write("my phone is $phone");
+  print('my name is $name');
+  print('my age is $age');
+  print('my email is $email');
+  print("my mark percentage is $mark");
+  print("my phone is $phone");
 }

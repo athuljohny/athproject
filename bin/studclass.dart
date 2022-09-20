@@ -9,7 +9,7 @@ static String  institute = "luminar";
 
 
 }
-void main(){
+ main(){
 Students rollno1 = Students();
 print('details of rollno1');
 print("Name          : ${rollno1.name          = "tom"}");

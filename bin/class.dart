@@ -38,10 +38,10 @@ void main(){
   print("**********************");
 
 
-  Car hyundai = Car();
+  Car hyundai = ar();
   print ("color is ${hyundai.color ="black"}");
   print("year is ${hyundai.year = 2009}");
-  print("mileage is ${hyundai.mileage = 20}");
+  print("mileage is ${hyunadai.mileage = 20}");
   print("hyunai is a model of ${Car.brand = "i20nline"}");
   hyundai.show();
 

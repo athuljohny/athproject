@@ -12,14 +12,18 @@ class Laptop{
 
 void main() {
 Laptop vivobook = Laptop();
+print('details of vivbook');
 print("Color   :${vivobook.color = "red"}");
 print("Ram     :${vivobook.ram   = 16}");
 print("Price   :${vivobook.price = 45000}");
 print("Model   :${Laptop.model}");
   
  print("YearOfManufacture :${Laptop.yearofmanufacture}");
- 
+ print('*********************************');
+
+
  Laptop tufgamming =Laptop();
+ print('details of tuf gamming');
 
 print("Color   :${tufgamming.color = "black"}");
 print("Ram     :${tufgamming.ram   = 8}");

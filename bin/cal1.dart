@@ -12,7 +12,7 @@ void div(int a, int b){
 }
 
 void main(){
-  add(45,60);
+  add(50,60);
   add(30, 45);
   sub(41,29);
   mul(92,57);

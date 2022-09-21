@@ -1,4 +1,4 @@
-void add(int a, int b){  /// a & b are parameters /arguments / formal parameters
+void add(int a, int b){  
    print('sum = ${a+b}');
 }
 void sub(int a, int b){

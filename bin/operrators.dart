@@ -67,4 +67,43 @@ void main()
    print(k << 1);
 
 
+   dynamic data = 90;
+   print(data is int);
+
+
+   print("ternary operators"); ///syntax => condition ? true statement ; false statement;
+
+    int age = 20;
+    String result = age >= 18 ? "eligible to vote" : "not eligible";
+    print(result);
+
+
+    int mark = 60;
+    String Mark = mark < 40 ? "exam failed" : "exam passed";
+    print(Mark);
+
+    var username = "athul";
+    var password = 123456;
+    var login = (username =="athul" && password == 123456 ) ? "login successful" : "login failed";
+    print(login); 
+
+
+    var p =  10;
+    var l =  20;
+    var largest = p>l ? 10 : 20;
+    print(largest);
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
 }

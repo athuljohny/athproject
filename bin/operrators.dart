@@ -94,6 +94,11 @@ void main()
     print(largest);
 
 
+ int u = 1 , z=2, j =3 ;
+ var largest6 = (u>z) ? (u>j ? u : z) : (z>j) ? z : j;
+ print(largest6);
+
+}
 
   
 
@@ -106,4 +111,3 @@ void main()
 
 
 
-}

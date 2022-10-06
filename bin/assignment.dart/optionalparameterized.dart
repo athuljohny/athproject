@@ -1,10 +1,14 @@
-import "dart:io";
-
-void funcmain(String name, int age, String email, int phone, String housename,
+void details(String name, int age, String email, int phone, String housename,
     {required int pincode, required int dob}) {
-  ;
+  print("name = $name");
+  print("age= $age");
+  print("email= $email");
+  print("phone= $phone");
+  print("housename=$housename");
+  print("pincode=$pincode");
+  print("dob= $dob");
 }
 
 void main() {
-  funcmain(name, age, email, phone, housename, pincode: pincode, dob: dob);
+  details("athul", 23, 'email', 224, 'housename', pincode: 2222, dob: 1998);
 }

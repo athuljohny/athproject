@@ -44,14 +44,10 @@ void main() {
 
   ///multiples of 2 from
 
-  List<int> listmulti = List.empty(growable: true);
+  int prod = 1;
   for (int i = 0; i < list.length; i++) {
     if (list[i] % 2 == 0) {
-      listmulti.add(list[i]);
+      print(" ${list[i] * prod}");
     }
-  }
-  print('Multples of 2 elements');
-  for (int i in listmulti) {
-    print(i);
   }
 }

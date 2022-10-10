@@ -1,0 +1,7 @@
+void main() {
+  int age = 3;
+
+  assert(age >= 18, "age must be >=18");
+
+  print('thank you');
+}

@@ -29,4 +29,5 @@ void main() {
   B obj = B();
   obj.show();
   obj.math(4, 6);
+  print("sum      ${obj.a + obj.b}");
 }

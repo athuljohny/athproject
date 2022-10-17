@@ -4,24 +4,21 @@ class MyException implements Exception {
   @override
   String toString() {
     return msg;
-
   }
 }
-void mark{
-  if (mark < 40){
+
+void mark(int mark) {
+  if (mark < 40) {
     throw Exception("mark is less than 40");
-  }lese{
-
+  } else {
     print("congragulations######");
-
   }
-  }
-void main(){
+}
 
-  try{
+void main() {
+  try {
     mark(7);
-
-  }catch(e){
+  } catch (e) {
     print("print $e");
   }
 }
